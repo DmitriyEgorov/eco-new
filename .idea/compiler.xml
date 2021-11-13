@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hackathon-app" />
+        <module name="hackathon-core" />
+        <module name="hackathon-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hackathon" target="1.8" />
+      <module name="hackathon-app" target="1.8" />
+      <module name="hackathon-core" target="1.8" />
+      <module name="hackathon-model" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hackathon-app" options="-parameters" />
+      <module name="hackathon-core" options="-parameters" />
+      <module name="hackathon-model" options="-parameters" />
+    </option>
+  </component>
+</project>
